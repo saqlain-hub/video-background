@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Playing Background</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar">
+        <div class="navbar__logo">
+          <img src="./assets/logo.png" alt="logo image" class="navbar--logo" />
+        </div>
+        <nav class="navbar__links">
+          <ul class="navbar--links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Beaches</a></li>
+            <li><a href="#">Popular Places</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="main--content">
+          <h2 class="main--title">TravelGlobe - See Beautiful Places</h2>
+          <button class="main--btn">Explore</button>
+        </div>
+        <video class="main--video" plays-inline muted autoplay>
+          <source src="./assets/background_video.mp4" type="video/mp4" />
+        </video>
+      </main>
+    </div>
+  </body>
+</html>
